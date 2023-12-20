@@ -88,7 +88,7 @@ const App = () => {
         <h1 className='text-center my-4 text-danger fw-bold '>Welcome to the Guess Number Game</h1>
 
         {/* Number entered by the user */}
-        <label htmlFor="input" className='form-label'>Enter your Number</label>
+        <label htmlFor="input" className='form-label'>Enter your Number (1-100)</label>
         <input type='text' id='input' className='form-control' value={userInput} autoFocus onChange={handleInput} ></input>
 
         {/* Previous Attempts of user will shown here */}
